@@ -1,0 +1,35 @@
+.wallBackground{
+    background-image : url('/img/wall_background1.png');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_button {
+    margin-top: 2%;
+    align-self: flex-start;
+    width: 20%;
+    background: transparent; /* 배경을 투명하게 설정 */
+    border: none; /* 둘레 제거 */
+}
+
+.home_icon {
+    width: 90%;
+}
+
+.writing_pad {
+    margin-left: 2.5%;
+    max-width: 95%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 43%;
+    font-size: 15px; /* 18px */
+    line-height: 190%; /* 원하는 간격으로 조절하세요 */
+}
+
